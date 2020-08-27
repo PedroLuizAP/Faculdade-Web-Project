@@ -6,101 +6,113 @@
         <title>Projeto WEB</title>
         <meta charset="utf-8">
 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
     </head>
 
     <body>
 
         <header>
+            <div class="container">
+                <div class="row">
+                    <div class= "col-6">   
+                        <img src= "../Imagens/logo.png" alt="logo"/>
+                    </div>
 
-            <div class="esqueda">   
-                <img src= "../projeto1/Imagens/logo.png" alt="logo"/>
+                    <div class="col-6">
+
+                        <nav class= "menu">
+                                <ul>
+                                    
+                                    <li><a href="#inicio">Inicio</a></li>
+                                    <li><a href="#sobre">Sobre</a></li>
+                                    <li><a href="#contato">Contato</a></li>
+                                    <li><a href="#localizacao">Localização</a></li>
+                                        
+                                </ul>
+                        </nav>
+
+                    </div>
+                </div>
             </div>
-
-            <div class="direita">
-
-               <nav class= "menu">
-                    <ul>
-                        
-                        <li><a href="#inicio">Inicio</a></li>
-                        <li><a href="#sobre">Sobre</a></li>
-                        <li><a href="#contato">Contato</a></li>
-                        <li><a href="#localizacao">Localização</a></li>
-                            
-                    </ul>
-               </nav>
-
-            </div>
-
         </header>
 
         <main>
             <a name="inicio"/>
-            <img src= "../projeto1/Imagens/topo.jpg" alt="logo"/>
+            <img src= "../Imagens/topo.jpg" alt="logo"/>
           
         </main>
 
         <section class="secao1">
-            <a name="sobre"/>
-            <div class="apresentacao">
+            <div class="container">
+                <a name="sobre"/>
+                
+                <div class="apresentacao">
 
-                <div class="texto">
-                <h2>Sobre</h2>
-                <p>
-                    <strong>Lorem ipsum</strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida velit eu mollis pulvinar. Etiam sed imperdiet orci, ac porta nisi. Quisque tempus,
-                     nunc sit amet blandit pellentesque, libero risus aliquet nulla, convallis tincidunt eros arcu eget mi. Quisque sit amet dictum urna. Nulla nec felis eu 
-                     sapien sagittis volutpat vel id turpis. Sed magna diam, cursus ut neque vel, tempor dignissim lectus. Aenean congue sapien non sapien faucibus facilisis. 
-                     Donec suscipit justo a leo aliquet, in pharetra turpis dapibus. Morbi molestie dolor non maximus blandit. Sed volutpat nulla et eros porttitor, nec faucibus 
-                     lorem scelerisque. Sed ultrices libero eu porttitor interdum.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida velit eu mollis pulvinar. Etiam sed imperdiet orci, ac porta nisi. Quisque tempus,
-                     nunc sit amet blandit pellentesque, libero risus aliquet nulla, convallis tincidunt eros arcu eget mi. Quisque sit amet dictum urna. Nulla nec felis eu 
-                     sapien sagittis volutpat vel id turpis. Sed magna diam, cursus ut neque vel, tempor dignissim lectus. Aenean congue sapien non sapien faucibus facilisis.
-                </p>
+                    <div class="texto">
+                    <h2>Sobre</h2>
+                    <p>
+                        <strong>Lorem ipsum</strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida velit eu mollis pulvinar. Etiam sed imperdiet orci, ac porta nisi. Quisque tempus,
+                        nunc sit amet blandit pellentesque, libero risus aliquet nulla, convallis tincidunt eros arcu eget mi. Quisque sit amet dictum urna. Nulla nec felis eu 
+                        sapien sagittis volutpat vel id turpis. Sed magna diam, cursus ut neque vel, tempor dignissim lectus. Aenean congue sapien non sapien faucibus facilisis. 
+                        Donec suscipit justo a leo aliquet, in pharetra turpis dapibus. Morbi molestie dolor non maximus blandit. Sed volutpat nulla et eros porttitor, nec faucibus 
+                        lorem scelerisque. Sed ultrices libero eu porttitor interdum.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida velit eu mollis pulvinar. Etiam sed imperdiet orci, ac porta nisi. Quisque tempus,
+                        nunc sit amet blandit pellentesque, libero risus aliquet nulla, convallis tincidunt eros arcu eget mi. Quisque sit amet dictum urna. Nulla nec felis eu 
+                        sapien sagittis volutpat vel id turpis. Sed magna diam, cursus ut neque vel, tempor dignissim lectus. Aenean congue sapien non sapien faucibus facilisis.
+                    </p>
+                    </div>
+
+                    <div class="imagem">
+                        <img src= "../Imagens/foto1.jpg" alt="logo"/>
+                    </div>
+
                 </div>
 
-                <div class="imagem">
-                    <img src= "../projeto1/Imagens/foto1.jpg" alt="logo"/>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/MKIejUcSBIU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-
-            </div>
-
-            <div class="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/MKIejUcSBIU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+             </div>
         </section>
 
         <section class="secao2">
-            <a name="contato"/>
-                
-            <div class="formulario">
-                <h2>Contato</h2>
-                <form action = "/enviar" method="POST">
+            <div class="container">
+                <a name="contato"/>
+                    
+                <div class="formulario">
+                    <h2>Contato</h2>
+                    <form action = "/enviar" method="POST">
 
-                    <input type="text" name="nome" placeholder="Nome"/>
-                    <input type="email" name="email" placeholder="E-mail"/>
-                    <input type="number" name="telefone" placeholder="Fone"/>
-                    <textarea name="mensagem" placeholder="Mensagem"></textarea>
-                    <button type="submit"> Enviar</button>
+                        <input type="text" name="nome" placeholder="Nome"/>
+                        <input type="email" name="email" placeholder="E-mail"/>
+                        <input type="number" name="telefone" placeholder="Fone"/>
+                        <textarea name="mensagem" placeholder="Mensagem"></textarea>
+                        <button type="submit"> Enviar</button>
 
-                </form>
+                    </form>
 
+                </div>
+
+                <div class="contato">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida velit eu mollis pulvinar. Etiam sed imperdiet orci, ac porta nisi. Quisque tempus,
+                        nunc sit amet blandit pellentesque, libero risus aliquet nulla, convallis tincidunt eros arcu eget mi. Quisque sit amet dictum urna. Nulla nec felis eu 
+                    </p>
+                    <ul>
+                        </li>xxxxx@hotmail.como</li>
+                        <br>
+                        </li>Fone</li>
+                        <br>
+                        </li>Whatsapp</li>
+                    </ul>
+                </div>
             </div>
-
-            <div class="contato">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida velit eu mollis pulvinar. Etiam sed imperdiet orci, ac porta nisi. Quisque tempus,
-                     nunc sit amet blandit pellentesque, libero risus aliquet nulla, convallis tincidunt eros arcu eget mi. Quisque sit amet dictum urna. Nulla nec felis eu 
-                </p>
-                <ul>
-                    </li>xxxxx@hotmail.como</li>
-                    <br>
-                    </li>Fone</li>
-                    <br>
-                    </li>Whatsapp</li>
-                </ul>
-            </div>
-
         </section>
 
         <section class="mapa">
@@ -110,38 +122,39 @@
         </section>
        
         <footer>
-            <div class="esquedaRodape">
-                <nav class= "menuRodape">
-                    <ul>
-                        
-                        <li><a href="#inicio">Inicio</a></li>
-                        <li><a href="#sobre">Sobre</a></li>
-                        <li><a href="#contato">Contato</a></li>
-                        <li><a href="#localizacao">Localização</a></li>
+            <div class="container">
+                <div class="esquedaRodape">
+                    <nav class= "menuRodape">
+                        <ul>
                             
-                    </ul>
-                </nav>
+                            <li><a href="#inicio">Inicio</a></li>
+                            <li><a href="#sobre">Sobre</a></li>
+                            <li><a href="#contato">Contato</a></li>
+                            <li><a href="#localizacao">Localização</a></li>
+                                
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="centro">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida velit eu mollis pulvinar. Etiam sed imperdiet orci, ac porta nisi. Quisque tempus,
+                        nunc sit amet blandit pellentesque, libero risus aliquet nulla, convallis tincidunt eros arcu eget mi. Quisque sit amet dictum urna. Nulla nec felis eu 
+                    </p>
+                </div>
+
+                <div class="esquedaRodape">
+                    <nav class= "menuRodape">
+                        <ul>                      
+
+                            <li><a href="youtube.com">Youtube</a></li>
+                            <li><a href="twitter.com">Contato</a></li>
+                            <li><a href="facebook.com">Sobre</a></li>
+
+                        </ul>
+                    </nav>
+                </div>
             </div>
-
-            <div class="centro">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida velit eu mollis pulvinar. Etiam sed imperdiet orci, ac porta nisi. Quisque tempus,
-                     nunc sit amet blandit pellentesque, libero risus aliquet nulla, convallis tincidunt eros arcu eget mi. Quisque sit amet dictum urna. Nulla nec felis eu 
-                </p>
-            </div>
-
-            <div class="esquedaRodape">
-                <nav class= "menuRodape">
-                    <ul>                      
-
-                        <li><a href="youtube.com">Youtube</a></li>
-                        <li><a href="twitter.com">Contato</a></li>
-                        <li><a href="facebook.com">Sobre</a></li>
-
-                    </ul>
-                </nav>
-            </div>
-
         </footer>
 
     </body>
