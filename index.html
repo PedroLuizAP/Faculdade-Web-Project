@@ -1,231 +1,231 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+    <head>
 
-    <!--Titulo da Pagina-->
-    <title>Projeto WEB</title>
-    <meta charset="utf-8">
+        <!--Titulo da Pagina-->
+        <title>Projeto WEB</title>
+        <meta charset="utf-8">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-        <link rel="stylesheet" href="../css/index.css">
-</head>
+            <link rel="stylesheet" href="../css/index.css">
+    </head>
 
-<body>
+    <body>
 
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <img src="../Imagens/logo.png" alt="logo" />
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="logo col-12 col-md-6">
+                        <img src="../Imagens/logo.png" alt="logo" />
+                    </div>
+
+                    <div class="menu col-12 col-md-6">
+
+                        <nav class="menu">
+                            <ul>
+
+                                <li><a href="#inicio">Inicio</a></li>
+                                <li><a href="#sobre">Sobre</a></li>
+                                <li><a href="#contato">Contato</a></li>
+                                <li><a href="#localizacao">Localização</a></li>
+
+                            </ul>
+                        </nav>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="imgTopo">
+            <a name="inicio" />
+            <img src="../Imagens/topo.jpg" alt="Topo" />
+
+        </main>
+
+        <section class="secao1">
+            <div class="container">
+                <a name="sobre" />
+                <div class="row">
+
+                    <div class="sobre col-12 col-md-6">
+                        <h2>Sobre</h2>
+                        <p>
+                            <strong>Lorem ipsum</strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+                            gravida velit eu mollis pulvinar. Etiam sed imperdiet orci, ac porta nisi. Quisque tempus,
+                            nunc sit amet blandit pellentesque, libero risus aliquet nulla, convallis tincidunt eros arcu
+                            eget mi. Quisque sit amet dictum urna. Nulla nec felis eu
+                            sapien sagittis volutpat vel id turpis. Sed magna diam, cursus ut neque vel, tempor dignissim
+                            lectus. Aenean congue sapien non sapien faucibus facilisis.
+                            Donec suscipit justo a leo aliquet, in pharetra turpis dapibus. Morbi molestie dolor non maximus
+                            blandit. Sed volutpat nulla et eros porttitor, nec faucibus
+                            lorem scelerisque. Sed ultrices libero eu porttitor interdum.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida velit eu mollis
+                            pulvinar. Etiam sed imperdiet orci, ac porta nisi. Quisque tempus,
+                            nunc sit amet blandit pellentesque, libero risus aliquet nulla, convallis tincidunt eros arcu
+                            eget mi. Quisque sit amet dictum urna. Nulla nec felis eu
+                            sapien sagittis volutpat vel id turpis. Sed magna diam, cursus ut neque vel, tempor dignissim
+                            lectus. Aenean congue sapien non sapien faucibus facilisis.
+                        </p>
+                    </div>
+
+                    <div class="imgtexto col-12 col-md-6">
+                        <img src="../Imagens/foto1.jpg" alt="imgtexto" />
+                    </div>
+
                 </div>
 
-                <div class="col-12 col-md-6">
+                <div class="row">
+                    <div class="linkYoutube col-12">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/MKIejUcSBIU" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
 
-                    <nav class="menu">
+
+        </section>
+
+        <section class="Tabela">
+            <div class="container">
+                <h2>TOP Cursos</h2>
+                <table class="table table-striped table-border table-hover">
+                    <tr>
+                        <th>Nome do Curso</th>
+                        <th>Carga Horaria</th>
+                    </tr>
+
+                    <tr>
+                        <td>Analise desenvolvimento de Sistemas</td>
+                        <td>180 Horas</td>
+                    </tr>
+
+                    <tr>
+                        <td>Medicina</td>
+                        <td>600 Horas</td>
+                    </tr>
+
+                    <tr>
+                        <td>Direito</td>
+                        <td>400 Horas</td>
+                    </tr>
+
+                    <td colspan="2">
+                        <a href="#">Mais Cursos</a>
+                    </td>
+                </table>
+            </div>
+
+        </section>
+
+        <section class="secao3">
+            <div class="container">
+                <a name="contato" />
+                <div class="row">
+
+                    <div class="contato col-12 col-md-6">
+                        <h2>Contato</h2>
+                        <form action="/enviar" method="POST">
+
+                            <input type="text" name="nome" placeholder="Nome" />
+                            <input type="email" name="email" placeholder="E-mail" />
+                            <input type="number" name="telefone" placeholder="Fone" />
+                            <textarea name="mensagem" placeholder="Mensagem"></textarea>
+                            <button type="submit"> Enviar</button>
+
+                        </form>
+
+                    </div>
+
+                    <div class="dados col-12 col-md-6">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida velit eu mollis
+                            pulvinar. Etiam sed imperdiet orci, ac porta nisi. Quisque tempus,
+                            nunc sit amet blandit pellentesque, libero risus aliquet nulla, convallis tincidunt eros arcu
+                            eget mi. Quisque sit amet dictum urna. Nulla nec felis eu
+                        </p>
                         <ul>
-
-                            <li><a href="#inicio">Inicio</a></li>
-                            <li><a href="#sobre">Sobre</a></li>
-                            <li><a href="#contato">Contato</a></li>
-                            <li><a href="#localizacao">Localização</a></li>
-
+                            </li>xxxxx@hotmail.como</li>
+                            <br>
+                            </li>Fone</li>
+                            <br>
+                            </li>Whatsapp</li>
                         </ul>
-                    </nav>
-
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>
+        </section>
 
-    <main>
-        <a name="inicio" />
-        <img src="../Imagens/topo.jpg" alt="logo" />
+        <section class="mapa">
+            <a name="localizacao" />
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.403005366265!2d-47.57494568545773!3d-22.413852485264666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c7dafa3f5df38f%3A0xdae5d735477dc38c!2sClaretiano%20-%20Centro%20Universit%C3%A1rio%20(Rio%20Claro%2FSP)!5e0!3m2!1spt-BR!2sbr!4v1597881985688!5m2!1spt-BR!2sbr"
+                width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
 
-    </main>
+        </section>
 
-    <section class="secao1">
-        <div class="container">
-            <a name="sobre" />
-            <div class="row">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <nav class="menuRodape">
+                            <ul>
 
-                <div class="col-12 col-md-6">
-                    <h2>Sobre</h2>
-                    <p>
-                        <strong>Lorem ipsum</strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-                        gravida velit eu mollis pulvinar. Etiam sed imperdiet orci, ac porta nisi. Quisque tempus,
-                        nunc sit amet blandit pellentesque, libero risus aliquet nulla, convallis tincidunt eros arcu
-                        eget mi. Quisque sit amet dictum urna. Nulla nec felis eu
-                        sapien sagittis volutpat vel id turpis. Sed magna diam, cursus ut neque vel, tempor dignissim
-                        lectus. Aenean congue sapien non sapien faucibus facilisis.
-                        Donec suscipit justo a leo aliquet, in pharetra turpis dapibus. Morbi molestie dolor non maximus
-                        blandit. Sed volutpat nulla et eros porttitor, nec faucibus
-                        lorem scelerisque. Sed ultrices libero eu porttitor interdum.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida velit eu mollis
-                        pulvinar. Etiam sed imperdiet orci, ac porta nisi. Quisque tempus,
-                        nunc sit amet blandit pellentesque, libero risus aliquet nulla, convallis tincidunt eros arcu
-                        eget mi. Quisque sit amet dictum urna. Nulla nec felis eu
-                        sapien sagittis volutpat vel id turpis. Sed magna diam, cursus ut neque vel, tempor dignissim
-                        lectus. Aenean congue sapien non sapien faucibus facilisis.
-                    </p>
+                                <li><a href="#inicio">Inicio</a></li>
+                                <li><a href="#sobre">Sobre</a></li>
+                                <li><a href="#contato">Contato</a></li>
+                                <li><a href="#localizacao">Localização</a></li>
+
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="col-4">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida velit eu mollis
+                            pulvinar.
+                            Etiam sed imperdiet orci, ac porta nisi. Quisque tempus,
+                            nunc sit amet blandit pellentesque, libero risus aliquet nulla, convallis tincidunt eros arcu
+                            eget
+                            mi. Quisque sit amet dictum urna. Nulla nec felis eu
+                        </p>
+                    </div>
+
+                    <div class="col-4">
+                        <nav class="menuRodape">
+                            <ul>
+
+                                <li><a href="youtube.com">Youtube</a></li>
+                                <li><a href="twitter.com">Contato</a></li>
+                                <li><a href="facebook.com">Sobre</a></li>
+
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
 
-                <div class="col-12 col-md-6">
-                    <img src="../Imagens/foto1.jpg" alt="logo" />
-                </div>
-
-            </div>
-
-            <div class="row">
-                <div class="col-12">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/MKIejUcSBIU" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
-            </div>
-
-
-    </section>
-
-    <section class="Tabela">
-        <div class="container">
-            <h2>TOP Cursos</h2>
-            <table class="table table-striped table-border table-hover">
-                <tr>
-                    <th>Nome do Curso</th>
-                    <th>Carga Horaria</th>
-                </tr>
-
-                <tr>
-                    <td>Analise desenvolvimento de Sistemas</td>
-                    <td>180 Horas</td>
-                </tr>
-
-                <tr>
-                    <td>Medicina</td>
-                    <td>600 Horas</td>
-                </tr>
-
-                <tr>
-                    <td>Direito</td>
-                    <td>400 Horas</td>
-                </tr>
-
-                <td colspan="2">
-                    <a href="#">Mais Cursos</a>
-                </td>
-            </table>
-        </div>
-
-    </section>
-
-    <section class="secao3">
-        <div class="container">
-            <a name="contato" />
-            <div class="row">
-
-                <div class="col-12 col-md-6">
-                    <h2>Contato</h2>
-                    <form action="/enviar" method="POST">
-
-                        <input type="text" name="nome" placeholder="Nome" />
-                        <input type="email" name="email" placeholder="E-mail" />
-                        <input type="number" name="telefone" placeholder="Fone" />
-                        <textarea name="mensagem" placeholder="Mensagem"></textarea>
-                        <button type="submit"> Enviar</button>
-
-                    </form>
-
-                </div>
-
-                <div class="col-12 col-md-6">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida velit eu mollis
-                        pulvinar. Etiam sed imperdiet orci, ac porta nisi. Quisque tempus,
-                        nunc sit amet blandit pellentesque, libero risus aliquet nulla, convallis tincidunt eros arcu
-                        eget mi. Quisque sit amet dictum urna. Nulla nec felis eu
-                    </p>
-                    <ul>
-                        </li>xxxxx@hotmail.como</li>
-                        <br>
-                        </li>Fone</li>
-                        <br>
-                        </li>Whatsapp</li>
-                    </ul>
+                <div class="copia">
+                    <div class="countainer">
+                        Copyright 2020 - Webdev - Todos os direitos reservados ao Pedron xD
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section class="mapa">
-        <a name="localizacao" />
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.403005366265!2d-47.57494568545773!3d-22.413852485264666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c7dafa3f5df38f%3A0xdae5d735477dc38c!2sClaretiano%20-%20Centro%20Universit%C3%A1rio%20(Rio%20Claro%2FSP)!5e0!3m2!1spt-BR!2sbr!4v1597881985688!5m2!1spt-BR!2sbr"
-            width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-            tabindex="0"></iframe>
-
-    </section>
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-4">
-                    <nav class="menuRodape">
-                        <ul>
-
-                            <li><a href="#inicio">Inicio</a></li>
-                            <li><a href="#sobre">Sobre</a></li>
-                            <li><a href="#contato">Contato</a></li>
-                            <li><a href="#localizacao">Localização</a></li>
-
-                        </ul>
-                    </nav>
-                </div>
-
-                <div class="col-4">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida velit eu mollis
-                        pulvinar.
-                        Etiam sed imperdiet orci, ac porta nisi. Quisque tempus,
-                        nunc sit amet blandit pellentesque, libero risus aliquet nulla, convallis tincidunt eros arcu
-                        eget
-                        mi. Quisque sit amet dictum urna. Nulla nec felis eu
-                    </p>
-                </div>
-
-                <div class="col-4">
-                    <nav class="menuRodape">
-                        <ul>
-
-                            <li><a href="youtube.com">Youtube</a></li>
-                            <li><a href="twitter.com">Contato</a></li>
-                            <li><a href="facebook.com">Sobre</a></li>
-
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-
-            <div class="copia">
-                <div class="countainer">
-                    Copyright 2020 - Webdev - Todos os direitos reservados ao Pedron xD
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
-</body>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+    </body>
 
 </html>
