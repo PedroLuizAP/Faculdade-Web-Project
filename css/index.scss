@@ -1,0 +1,126 @@
+body
+{
+    background-color: #FFF(22, 21, 21);
+    font-family: "Times New Roman", "Times", "Serif";
+    font-size: 18px;
+    color: rgb(37, 37, 37);
+    &>header
+    {
+        background-color: #FFF;        
+        width: 100%; 
+        position: fixed;
+        z-index: 100;
+        top : 0;
+        &>div.container
+        {
+            &>div.iniciologo
+            {
+                &>div.logo
+                {
+                    &>img
+                    {
+                        margin: 10px 0px ;
+                    }
+                }
+
+                &>div.menu
+                {                    
+                    &>nav.menu
+                    {
+                        width: 100%;
+                        &>ul
+                        {
+                            width: 100%;
+                            margin: 0;
+                            padding: 21px 0;
+                            list-style: none;
+                            text-align: right;
+                            &>li
+                            {                        
+                                margin-left: 25px;
+                                display:inline-block;
+                                
+                                &.inicio
+                                {
+
+                                }
+
+                                &>a
+                                {
+                                    font-weight: 300;
+                                    color: #333;
+
+                                    &:hover
+                                    {
+                                        color: rgb(34, 122, 255);
+                                        text-decoration: none;
+                                    }
+                                }
+                            }
+
+
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+    &>main.imgtopo
+    {
+        margin-top: 83px;
+        img
+        {
+            display: block;
+            width: 100%;
+        }
+    }
+    &>section
+    {
+        padding: 80px 0;
+        &.secao1
+        {
+
+
+        }
+
+        &.tabela
+        {
+            &>div.container
+            {
+                &>table.table
+                {
+                    &>tbody
+                    {
+                        &>tr
+                        {
+                            &>td
+                            {
+                                
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &.secao2
+        {
+
+        }
+        &>div.container
+        {
+            &>div.row
+            {
+                &>div
+                {
+                    &.sobre
+                    {
+                        
+                    }
+                }
+            }
+        }
+    }
+}
